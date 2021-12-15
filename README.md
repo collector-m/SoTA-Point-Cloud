@@ -1,4 +1,10 @@
-# Deep Learning for 3D Point Clouds: A Survey
+[![arXiv](https://img.shields.io/badge/arXiv-1912.12033-b31b1b.svg)](https://arxiv.org/abs/1912.12033)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/QingyongHu/SoTA-Point-Cloud/graphs/commit-activity)
+[![GitHub issues](https://img.shields.io/github/issues/QingyongHu/SoTA-Point-Cloud)](https://GitHub.com/QingyongHu/SoTA-Point-Cloud/issues/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+
+
+# Deep Learning for 3D Point Clouds: A Survey (IEEE TPAMI, 2020)
 
 This is the official repository of **Deep Learning for 3D Point Clouds: A Survey** (IEEE TPAMI), a comprehensive survey 
 of recent progress in deep learning methods for point clouds. For details, please refer to:
@@ -10,6 +16,8 @@ of recent progress in deep learning methods for point clouds. For details, pleas
 [Qingyong Hu<sup>∗</sup>](https://qingyonghu.github.io/), Hao Liu<sup>∗</sup>,
 [Li Liu](http://www.ee.oulu.fi/~lili/LiLiuHomepage.html), 
 and [Mohammed Bennamoun](http://staffhome.ecm.uwa.edu.au/~00051632/). <br />
+(* *indicates equal contribution*)
+
 **[[Paper](https://arxiv.org/abs/1912.12033)] [[Blog](https://mp.weixin.qq.com/s/5RJAv_cOlhee1R9uZzkmHQ)]** <br />
 
 <p align="center"> <img src="./taxonomy.png" width="95%"> </p>
@@ -61,7 +69,14 @@ We will update this page on a regular basis! So stay tuned~ :tada::tada::tada:
 - S3DIS (CVPR'17) [[paper]](http://buildingparser.stanford.edu/images/3D_Semantic_Parsing.pdf) [[data]](https://docs.google.com/forms/d/e/1FAIpQLScDimvNMCGhy_rmBA2gHfDu3naktRm6A8BPwAWWDv-Uhm6Shw/viewform?c=0&w=1) [[project page]](http://buildingparser.stanford.edu/dataset.html#Download)
 - ScanNet (CVPR'17) [[paper]](https://arxiv.org/pdf/1702.04405) [[data]](https://github.com/ScanNet/ScanNet) [[project page]](http://www.scan-net.org/) [[results]](http://kaldir.vc.in.tum.de/scannet_benchmark/)  
 - NPM3D (IJRR'18) [[paper]](https://arxiv.org/pdf/1712.00032) [[data]](https://cloud.mines-paristech.fr/index.php/s/JhIxgyt0ALgRZ1O) [[project page]](http://npm3d.fr/) [[results]](http://npm3d.fr/paris-lille-3d) 
+- DublinCity (BMVC'19) [[paper]](https://arxiv.org/abs/1909.03613) [[data]](https://v-sense.scss.tcd.ie/dublincity/) [[project page]](https://v-sense.scss.tcd.ie/dublincity/) 
 - SemanticKITTI (ICCV'19) [[paper]](https://arxiv.org/pdf/1904.01416) [[data]](http://semantic-kitti.org/dataset.html#download) [[project page]](http://semantic-kitti.org/index.html) [[results]](https://competitions.codalab.org/competitions/20331#results)
+- nuScenes (CVPR'20) [[paper]](https://arxiv.org/abs/1903.11027) [[data]](https://www.nuscenes.org/lidar-segmentation) [[project page]](https://www.nuscenes.org/lidar-segmentation) [[results]](https://www.nuscenes.org/lidar-segmentation)
+- Toronto-3D (CVPRW'20) [[paper]](https://arxiv.org/abs/2003.08284) [[data]](https://github.com/WeikaiTan/Toronto-3D) [[project page]](https://github.com/WeikaiTan/Toronto-3D) [[results]](https://github.com/WeikaiTan/Toronto-3D)
+- DALES (CVPRW'20) [[paper]](https://arxiv.org/abs/2004.11985) [[data]](https://docs.google.com/forms/d/e/1FAIpQLSe3IaTxCS7wKH01SHn_o7U86ToIw9K26vc0bkwiELn6wwh8gg/viewform) [[project page]](https://udayton.edu/engineering/research/centers/vision_lab/research/was_data_analysis_and_processing/dale.php) [[results]](https://arxiv.org/abs/2004.11985)
+- Campus3D (ACM MM'20) [[paper]](https://arxiv.org/abs/2008.04968) [[data]](https://3d.dataset.site/) [[project page]](https://github.com/shinke-li/Campus3D) [[results]](https://arxiv.org/abs/2008.04968)
+- SensatUrban (CVPR'21) [[paper]](https://arxiv.org/abs/2009.03137) [data][[project page]](http://point-cloud-analysis.cs.ox.ac.uk/) [[results]](https://arxiv.org/abs/2009.03137)
+
 
 #### Benchmark Results
 <p align="center"> <img src="./Segmentation.png" width="95%"> </p>
@@ -70,14 +85,25 @@ We will update this page on a regular basis! So stay tuned~ :tada::tada::tada:
 ### Citation
 If you find our work useful in your research, please consider citing:
 
-    @article{guo2019deep,
-      title={Deep Learning for 3D Point Clouds: A Survey},
+    @article{guo2020deep,
+      title={Deep learning for 3d point clouds: A survey},
       author={Guo, Yulan and Wang, Hanyun and Hu, Qingyong and Liu, Hao and Liu, Li and Bennamoun, Mohammed},
-      journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
-      year={2019}
+      journal={IEEE transactions on pattern analysis and machine intelligence},
+      year={2020},
+      publisher={IEEE}
     }
-
 
 ## Updates
 * 26/02/2020: Adding the dataset information
 * 27/12/2019: Initial release.
+
+
+## Related Repos
+1. [RandLA-Net: Efficient Semantic Segmentation of Large-Scale Point Clouds](https://github.com/QingyongHu/RandLA-Net) ![GitHub stars](https://img.shields.io/github/stars/QingyongHu/RandLA-Net.svg?style=flat&label=Star)
+2. [SensatUrban: Learning Semantics from Urban-Scale Photogrammetric Point Clouds](https://github.com/QingyongHu/SensatUrban) ![GitHub stars](https://img.shields.io/github/stars/QingyongHu/SensatUrban.svg?style=flat&label=Star)
+3. [3D-BoNet: Learning Object Bounding Boxes for 3D Instance Segmentation on Point Clouds](https://github.com/Yang7879/3D-BoNet) ![GitHub stars](https://img.shields.io/github/stars/Yang7879/3D-BoNet.svg?style=flat&label=Star)
+4. [SpinNet: Learning a General Surface Descriptor for 3D Point Cloud Registration](https://github.com/QingyongHu/SpinNet) ![GitHub stars](https://img.shields.io/github/stars/QingyongHu/SpinNet.svg?style=flat&label=Star)
+5. [SQN: Weakly-Supervised Semantic Segmentation of Large-Scale 3D Point Clouds with 1000x Fewer Labels](https://github.com/QingyongHu/SQN) ![GitHub stars](https://img.shields.io/github/stars/QingyongHu/SQN.svg?style=flat&label=Star)
+
+
+
